@@ -1,0 +1,119 @@
+.google1Icon,
+.vectorIcon {
+  position: absolute;
+  overflow: hidden;
+}
+.vectorIcon {
+  height: 10.18%;
+  width: 6.48%;
+  top: -14.97%;
+  right: 2988.49%;
+  bottom: 104.79%;
+  left: -2894.97%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.google1Icon {
+  top: 56.5rem;
+  left: 160.41rem;
+  width: 1.48rem;
+  height: 1.63rem;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-2xl);
+  background-color: var(--color-white);
+  width: 56.69rem;
+  height: 61.38rem;
+}
+.frameItem {
+  position: absolute;
+  height: 3.1%;
+  width: 4.22%;
+  top: 29.53%;
+  right: 16.83%;
+  bottom: 67.37%;
+  left: 78.94%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.emailAddress,
+.password {
+  border: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-xs);
+  background-color: transparent;
+  position: absolute;
+  top: 13.69rem;
+  left: 9.44rem;
+  color: var(--color-gray-200);
+  text-align: left;
+}
+.password {
+  top: 18.81rem;
+}
+.logIn {
+  position: absolute;
+  top: 9rem;
+  left: 9.13rem;
+  letter-spacing: 0.09em;
+}
+.frameChild1,
+.frameInner,
+.lineIcon {
+  position: absolute;
+  left: 9.44rem;
+  width: 37.88rem;
+}
+.frameInner {
+  cursor: pointer;
+  border: 2px solid var(--color-brown);
+  padding: 0;
+  background-color: var(--color-indianred-200);
+  top: 24.31rem;
+  border-radius: var(--br-xs);
+  box-sizing: border-box;
+  height: 3.69rem;
+}
+.frameChild1,
+.lineIcon {
+  top: 15.44rem;
+  height: 0.13rem;
+}
+.frameChild1 {
+  top: 20.56rem;
+}
+.logIn1 {
+  position: absolute;
+  top: 25.44rem;
+  left: 26.5rem;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  color: var(--color-white);
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 40.44rem;
+  width: 56.69rem;
+  height: 61.38rem;
+}
+.loginPageInvestor {
+  position: relative;
+  background: linear-gradient(
+    269.76deg,
+    #2d2c2c,
+    #832f43 45.06%,
+    #c83256 75.82%
+  );
+  width: 100%;
+  height: 61.38rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-2xs);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

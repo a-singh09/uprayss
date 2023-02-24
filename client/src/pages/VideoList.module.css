@@ -1,0 +1,23 @@
+.hereAreThe {
+  position: absolute;
+  top: 18.44rem;
+  left: 7.13rem;
+  font-weight: 600;
+}
+.welcomePriyanshu {
+  position: absolute;
+  top: 12.19rem;
+  left: 7.13rem;
+  font-size: 4rem;
+}
+.videoList {
+  position: relative;
+  background-color: var(--color-gray-300);
+  width: 100%;
+  height: 220.44rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-2xl);
+  color: var(--color-whitesmoke);
+  font-family: var(--font-inter);
+}

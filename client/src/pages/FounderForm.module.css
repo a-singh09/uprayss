@@ -1,0 +1,138 @@
+.founderFormChild {
+  position: absolute;
+  top: 12.5rem;
+  left: 8.06rem;
+  border-radius: var(--br-xl);
+  background: linear-gradient(
+    119.12deg,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 250, 250, 0.1)
+  );
+  width: 78.75rem;
+  height: 110.19rem;
+}
+.letUsHelp {
+  position: absolute;
+  top: 16.94rem;
+  left: 15.63rem;
+  font-size: var(--font-size-2xl);
+  display: inline-block;
+  color: var(--color-gray-100);
+  width: 18.94rem;
+  height: 2.81rem;
+}
+.instanceChild {
+  border: 2px solid var(--color-gray-500);
+  background-color: var(--color-gainsboro-100);
+  position: absolute;
+  top: 3rem;
+  left: 0;
+  border-radius: var(--br-xs);
+  box-sizing: border-box;
+  width: 26rem;
+  height: 3.69rem;
+}
+.areYouInvesting {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+}
+.rectangleParent {
+  position: absolute;
+  top: 23.63rem;
+  left: 19rem;
+  width: 27.31rem;
+  height: 6.31rem;
+  color: var(--color-whitesmoke);
+}
+.frameChild {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-indianred-200);
+  position: absolute;
+  top: 0;
+  left: 10rem;
+  border-radius: var(--br-lg);
+  width: 69.69rem;
+  height: 4.69rem;
+}
+.submit {
+  position: absolute;
+  top: 1.31rem;
+  left: 41.94rem;
+  font-weight: 600;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 112.13rem;
+  left: 2.13rem;
+  width: 74.31rem;
+  height: 4.44rem;
+}
+.whatProblemAre {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+}
+.component4Child {
+  border: 0;
+  background-color: var(--color-gainsboro-100);
+  position: absolute;
+  height: 80.71%;
+  width: 99.88%;
+  top: 19.29%;
+  right: 0;
+  bottom: 0;
+  left: 0.12%;
+  border-radius: var(--br-xs);
+}
+.component4 {
+  position: absolute;
+  top: 31.81rem;
+  left: 19rem;
+  width: 52.19rem;
+  height: 17.5rem;
+}
+.rectangleContainer {
+  position: absolute;
+  top: 51.19rem;
+  left: 18.94rem;
+  width: 28.31rem;
+  height: 6.69rem;
+  color: var(--color-whitesmoke);
+}
+.component41,
+.component42,
+.frameDiv {
+  position: absolute;
+  top: 59.75rem;
+  left: 19.06rem;
+  width: 52.19rem;
+  height: 17.5rem;
+}
+.component42,
+.frameDiv {
+  top: 87.69rem;
+  left: 18.81rem;
+}
+.frameDiv {
+  top: 79.13rem;
+  left: 18.94rem;
+  width: 28.31rem;
+  height: 6.69rem;
+  color: var(--color-whitesmoke);
+}
+.founderForm {
+  position: relative;
+  background-color: var(--color-gray-300);
+  width: 100%;
+  height: 133.88rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

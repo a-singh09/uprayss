@@ -1,0 +1,9 @@
+.videoreviewChild {
+  position: absolute;
+  top: 57.44rem;
+  left: 8rem;
+  background: linear-gradient(0deg, #aa314e, rgba(170, 49, 78, 0) 97.9%);
+  box-shadow: 4px 4px 65px -19px rgba(140, 136, 136, 0.25);
+  width: 78.5rem;
+  height: 73.81rem;
+}

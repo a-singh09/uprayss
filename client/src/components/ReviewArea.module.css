@@ -1,0 +1,10 @@
+.videoreviewChild {
+  border: 0;
+  background-color: var(--color-silver);
+  position: absolute;
+  top: 156.31rem;
+  left: 2.81rem;
+  border-radius: var(--br-lg);
+  width: 88.94rem;
+  height: 25.81rem;
+}

@@ -1,0 +1,109 @@
+.videoChild,
+.videoItem {
+  position: absolute;
+  border-radius: var(--br-md);
+}
+.videoChild {
+  top: 4.44rem;
+  left: 47.44rem;
+  background-color: var(--color-indianred-100);
+  width: 37.81rem;
+  height: 15.94rem;
+}
+.videoItem {
+  top: 4.25rem;
+  left: 5.5rem;
+  width: 37.31rem;
+  height: 25.81rem;
+  object-fit: cover;
+}
+.path3785Icon {
+  position: absolute;
+  height: 16.43%;
+  width: 6%;
+  top: 41.7%;
+  right: 71.52%;
+  bottom: 41.88%;
+  left: 22.48%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.startupsName {
+  position: absolute;
+  top: 6.56rem;
+  left: 50.13rem;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+}
+.iconThumbUp {
+  position: absolute;
+  height: 5.23%;
+  width: 1.91%;
+  top: 76.58%;
+  right: 9.43%;
+  bottom: 18.19%;
+  left: 88.66%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.problemThatThey {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.inBrief {
+  margin: 0;
+}
+.problemThatTheyContainer {
+  position: absolute;
+  top: 12.13rem;
+  left: 50.13rem;
+  font-weight: 600;
+}
+.iconEye {
+  position: relative;
+  width: 2.44rem;
+  height: 1.83rem;
+  flex-shrink: 0;
+}
+.iconEyeWrapper {
+  position: absolute;
+  top: 25.69rem;
+  left: 53rem;
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-md);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div {
+  top: 25.88rem;
+  left: 47.44rem;
+  font-weight: 600;
+}
+.div,
+.div1,
+.video {
+  position: absolute;
+}
+.div1 {
+  top: 25.88rem;
+  left: 76.56rem;
+  font-weight: 600;
+}
+.video {
+  top: 32.69rem;
+  left: 0;
+  background-color: var(--color-gray-300);
+  filter: blur(10px);
+  width: 92.06rem;
+  height: 33.63rem;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-whitesmoke);
+  font-family: var(--font-inter);
+}

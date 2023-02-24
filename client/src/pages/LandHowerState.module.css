@@ -1,0 +1,488 @@
+.macbookPro1426Child {
+  position: absolute;
+  top: 7.25rem;
+  left: 29.88rem;
+  width: 64.63rem;
+  height: 54.13rem;
+}
+.macbookPro1426Inner,
+.macbookPro1426Item {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-crimson-100);
+  position: absolute;
+  top: 44rem;
+  left: 5.94rem;
+  border-radius: var(--br-2xs);
+  width: 11.75rem;
+  height: 3.44rem;
+}
+.macbookPro1426Inner {
+  left: 23.31rem;
+  width: 12.81rem;
+  height: 3.75rem;
+}
+.founder,
+.investor,
+.joinUsAs {
+  position: absolute;
+  top: 44.75rem;
+  left: 8.63rem;
+}
+.investor,
+.joinUsAs {
+  left: 26rem;
+  font-size: var(--font-size-base);
+}
+.joinUsAs {
+  top: 40.88rem;
+  left: 5.94rem;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  color: var(--color-whitesmoke);
+  display: inline-block;
+  width: 12.19rem;
+  height: 2.31rem;
+}
+.raiseFunds {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.connect {
+  margin: 0;
+}
+.raiseFundsInvestgrowContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.07em;
+}
+.easilyFasterEffectivelyContainer {
+  position: absolute;
+  top: -0.81rem;
+  left: 0.06rem;
+  letter-spacing: 0.07em;
+  display: inline-block;
+  width: 29.38rem;
+  height: 5.88rem;
+}
+.easilyFasterEffectivelyWrapper {
+  position: absolute;
+  top: 11.5rem;
+  left: 22.5rem;
+  width: 29.38rem;
+  height: 5.56rem;
+  overflow: hidden;
+  color: var(--color-crimson-200);
+}
+.component1 {
+  position: absolute;
+  top: 14.69rem;
+  left: 8.25rem;
+  width: 52.06rem;
+  height: 17.06rem;
+  font-size: var(--font-size-6xl);
+  color: var(--color-gray-100);
+}
+.contactUs,
+.faq,
+.home,
+.uprayss {
+  position: absolute;
+  display: inline-block;
+}
+.uprayss {
+  top: 3.69rem;
+  left: 5.94rem;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.08em;
+  font-weight: 800;
+  width: 10.06rem;
+  height: 1.81rem;
+}
+.contactUs,
+.faq,
+.home {
+  top: 3.88rem;
+  left: 85.5rem;
+  letter-spacing: 0.11em;
+  line-height: 132.02%;
+  width: 3.5rem;
+  height: 1.69rem;
+}
+.contactUs,
+.home {
+  left: 57.69rem;
+  width: 5.19rem;
+}
+.contactUs {
+  left: 69.19rem;
+  width: 9.94rem;
+}
+.uprayssParent {
+  height: 7.06rem;
+}
+.frameParent,
+.macbookPro1426,
+.uprayssParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 94.5rem;
+  overflow: hidden;
+}
+.frameParent {
+  height: 7.06rem;
+  color: var(--color-whitesmoke);
+}
+.macbookPro1426 {
+  background-color: var(--color-gray-300);
+  height: 61.38rem;
+}
+.contactUs2,
+.contactUs3,
+.faq2,
+.faq3,
+.home2,
+.home3,
+.uprayss2 {
+  position: absolute;
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-whitesmoke);
+  text-align: left;
+}
+.uprayss2 {
+  top: 3.69rem;
+  left: 5.94rem;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.08em;
+  font-weight: 800;
+  width: 10.06rem;
+  height: 1.81rem;
+}
+.contactUs2,
+.contactUs3,
+.faq2,
+.faq3,
+.home2,
+.home3 {
+  top: 3.88rem;
+  left: 85.5rem;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.11em;
+  line-height: 132.02%;
+  width: 3.5rem;
+  height: 1.69rem;
+}
+.contactUs2,
+.contactUs3,
+.faq3,
+.home2,
+.home3 {
+  left: 57.69rem;
+  width: 5.19rem;
+}
+.contactUs2,
+.contactUs3,
+.faq3,
+.home3 {
+  left: 69.19rem;
+  width: 9.94rem;
+}
+.contactUs3,
+.faq3,
+.home3 {
+  text-decoration: none;
+  left: 85.5rem;
+  font-weight: 700;
+  width: 3.5rem;
+}
+.contactUs3,
+.home3 {
+  left: 57.69rem;
+  width: 5.19rem;
+}
+.contactUs3 {
+  left: 69.19rem;
+  width: 9.94rem;
+}
+.ourWorkUpdates,
+.whatDoWe {
+  position: absolute;
+  top: 8.88rem;
+  left: 6.19rem;
+}
+.ourWorkUpdates {
+  top: 66.13rem;
+}
+.macbookPro1428Child,
+.macbookPro1428Item {
+  position: absolute;
+  top: 0.38rem;
+  left: -0.87rem;
+  border-top: 28px solid var(--color-darkgray);
+  box-sizing: border-box;
+  width: 96.25rem;
+  height: 1.75rem;
+}
+.macbookPro1428Item {
+  top: 57.44rem;
+  left: 0.63rem;
+}
+.macbookPro1428Inner {
+  position: absolute;
+  top: 76.06rem;
+  left: 114.69rem;
+  border-radius: 54px;
+  border: 28px solid var(--color-black);
+  box-sizing: border-box;
+  width: 29.31rem;
+  height: 17.44rem;
+}
+.ellipseIcon {
+  position: absolute;
+  top: 62.06rem;
+  left: 147.75rem;
+  width: 17rem;
+  height: 17.25rem;
+}
+.arrowIcon {
+  position: absolute;
+  top: 85.25rem;
+  left: 131.94rem;
+  width: 29.52rem;
+  height: 0;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 75.31rem;
+  left: 14.69rem;
+  border-radius: var(--br-3xl);
+  background-color: var(--color-indianred-100);
+  width: 65.13rem;
+  height: 32.44rem;
+}
+.noOfInvestment,
+.noOfStartups {
+  position: absolute;
+  top: 85.5rem;
+  left: 21.69rem;
+  font-size: var(--font-size-sm);
+}
+.noOfInvestment {
+  top: 95.19rem;
+}
+.macbookPro1428Child1,
+.macbookPro1428Child2 {
+  position: absolute;
+  top: 83.44rem;
+  left: 46.63rem;
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+  width: 16.19rem;
+  height: 5.25rem;
+}
+.macbookPro1428Child2 {
+  top: 93.5rem;
+}
+.b {
+  top: 0.44rem;
+  left: 1.88rem;
+  line-height: 121.52%;
+}
+.b,
+.b1,
+.parent {
+  position: absolute;
+}
+.b1 {
+  top: 0.44rem;
+  left: 8.06rem;
+  display: inline-block;
+  width: 1.75rem;
+  height: 2.44rem;
+}
+.parent {
+  top: 84.13rem;
+  left: 47.88rem;
+  background-color: var(--color-white);
+  width: 11.75rem;
+  height: 3.44rem;
+  overflow: hidden;
+  font-size: var(--font-size-2xl);
+  color: var(--color-black);
+}
+.b2 {
+  top: 0.44rem;
+  left: 1.88rem;
+}
+.b2,
+.b3,
+.group {
+  position: absolute;
+}
+.b3 {
+  top: 0.44rem;
+  left: 6.69rem;
+  display: inline-block;
+  width: 1.75rem;
+  height: 3rem;
+}
+.group {
+  top: 94.31rem;
+  left: 49.56rem;
+  background-color: var(--color-white);
+  width: 11.75rem;
+  height: 3.44rem;
+  overflow: hidden;
+  font-size: var(--font-size-2xl);
+  color: var(--color-black);
+}
+.component2Child,
+.component2Child1,
+.component2Inner,
+.component2Item {
+  position: absolute;
+  top: 8.19rem;
+  left: 5.44rem;
+  border-radius: var(--br-2xs);
+  border: 9px solid var(--color-crimson-300);
+  box-sizing: border-box;
+  width: 23.44rem;
+  height: 16.13rem;
+}
+.component2Child1,
+.component2Inner,
+.component2Item {
+  top: 4.44rem;
+  left: 24.88rem;
+  width: 19.75rem;
+  height: 13.69rem;
+}
+.component2Child1,
+.component2Inner {
+  top: 13.81rem;
+  left: 38.38rem;
+  width: 22.56rem;
+  height: 16.13rem;
+}
+.component2Child1 {
+  top: 8.19rem;
+  left: 53.31rem;
+  width: 18.63rem;
+  height: 9.38rem;
+}
+.component2Child2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xl);
+  background: linear-gradient(
+    149.26deg,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.1)
+  );
+  backdrop-filter: blur(30px);
+  width: 16.19rem;
+  height: 20.13rem;
+}
+.helpsStartupsToContainer {
+  position: absolute;
+  top: 4.31rem;
+  left: 3.31rem;
+  display: inline-block;
+  font-weight: 600;
+  width: 9.56rem;
+  height: 11.5rem;
+}
+.component2Child3 {
+  position: absolute;
+  top: 11.81rem;
+  left: 20.75rem;
+  border-radius: var(--br-3xl);
+  background: linear-gradient(
+    149.26deg,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.1)
+  );
+  backdrop-filter: blur(30px);
+  width: 16.19rem;
+  height: 20.13rem;
+}
+.helpsAnyoneToContainer {
+  position: absolute;
+  top: 14.5rem;
+  left: 23.56rem;
+  display: inline-block;
+  font-weight: 600;
+  width: 10.56rem;
+  height: 11.5rem;
+}
+.component2Child4,
+.component2Child5 {
+  position: absolute;
+  border-radius: var(--br-3xl);
+  background: linear-gradient(
+    149.26deg,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.1)
+  );
+  backdrop-filter: blur(30px);
+}
+.component2Child4 {
+  top: 0;
+  left: 41.5rem;
+  width: 16.19rem;
+  height: 20.13rem;
+}
+.component2Child5 {
+  top: 11.81rem;
+  left: 62.38rem;
+  width: 16.56rem;
+  height: 20.5rem;
+}
+.connectFoundersToContainer,
+.helpsFoundersToContainer {
+  position: absolute;
+  top: 4.31rem;
+  left: 43.88rem;
+  display: inline-block;
+  font-weight: 600;
+  width: 11.56rem;
+  height: 11.5rem;
+}
+.helpsFoundersToContainer {
+  top: 13.81rem;
+  left: 64.25rem;
+  width: 12.44rem;
+  height: 15.13rem;
+}
+.component2 {
+  position: absolute;
+  top: 17.56rem;
+  left: 7.75rem;
+  width: 78.94rem;
+  height: 32.31rem;
+  font-size: var(--font-size-xl);
+}
+.macbookPro1428 {
+  position: absolute;
+  top: 61.38rem;
+  left: 0;
+  background-color: var(--color-gray-300);
+  width: 94.5rem;
+  height: 117.31rem;
+  overflow: hidden;
+  font-size: var(--font-size-4xl);
+}
+.landHowerState {
+  position: relative;
+  width: 100%;
+  height: 178.69rem;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

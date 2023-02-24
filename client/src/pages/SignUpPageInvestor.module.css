@@ -1,0 +1,201 @@
+.google1Icon,
+.vectorIcon {
+  position: absolute;
+  overflow: hidden;
+}
+.vectorIcon {
+  height: 10.18%;
+  width: 6.48%;
+  top: -14.97%;
+  right: 2988.49%;
+  bottom: 104.79%;
+  left: -2894.97%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.google1Icon {
+  top: 56.5rem;
+  left: 160.41rem;
+  width: 1.48rem;
+  height: 1.63rem;
+}
+.frameChild {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-2xl);
+  background-color: var(--color-white);
+  width: 56.69rem;
+  height: 61.38rem;
+}
+.frameChild,
+.frameItem,
+.or {
+  position: absolute;
+}
+.frameItem {
+  height: 3.1%;
+  width: 4.22%;
+  top: 60.59%;
+  right: 16.95%;
+  bottom: 36.31%;
+  left: 78.83%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.or {
+  top: 18.81rem;
+  left: 26rem;
+}
+.fullName,
+.signUpWith {
+  position: absolute;
+  top: 14.13rem;
+  left: 13.06rem;
+}
+.fullName {
+  font-size: var(--font-size-xs);
+  top: 22.31rem;
+  left: 9.38rem;
+}
+.emailAddress,
+.fullName,
+.phoneNo {
+  border: 0;
+  font-family: var(--font-inter);
+  background-color: transparent;
+  color: var(--color-gray-200);
+  text-align: left;
+}
+.emailAddress {
+  font-size: var(--font-size-xs);
+  position: absolute;
+  top: 27.44rem;
+  left: 9.38rem;
+}
+.phoneNo {
+  top: 32.56rem;
+  left: 9.5rem;
+}
+.alreadyHaveAn,
+.password,
+.phoneNo {
+  position: absolute;
+  font-size: var(--font-size-xs);
+}
+.password {
+  border: 0;
+  font-family: var(--font-inter);
+  background-color: transparent;
+  top: 37.88rem;
+  left: 9.38rem;
+  color: var(--color-gray-200);
+  text-align: left;
+}
+.alreadyHaveAn {
+  top: 50.44rem;
+  left: 9.5rem;
+}
+.logIn1 {
+  color: var(--color-indianred-200);
+}
+.logIn {
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  top: 50.44rem;
+  left: 24.75rem;
+  font-size: var(--font-size-xs);
+  color: inherit;
+}
+.createAccount {
+  position: absolute;
+  top: 9rem;
+  left: 9.13rem;
+  letter-spacing: 0.09em;
+  color: var(--color-black);
+}
+.frameInner,
+.rectangleButton {
+  position: absolute;
+  top: 13.25rem;
+  left: 9.13rem;
+  border-radius: var(--br-xs);
+  border: 2px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  width: 16.19rem;
+  height: 2.81rem;
+}
+.rectangleButton {
+  cursor: pointer;
+  border: 2px solid var(--color-brown);
+  padding: 0;
+  background-color: var(--color-indianred-200);
+  top: 45.5rem;
+  left: 9.44rem;
+  width: 37.88rem;
+  height: 3.69rem;
+}
+.frameChild1,
+.frameChild2,
+.frameChild3,
+.lineIcon {
+  position: absolute;
+  top: 24.06rem;
+  left: 9.38rem;
+  width: 37.88rem;
+  height: 0.13rem;
+}
+.frameChild1,
+.frameChild2,
+.frameChild3 {
+  top: 29.19rem;
+}
+.frameChild2,
+.frameChild3 {
+  top: 34.31rem;
+  left: 9.5rem;
+}
+.frameChild3 {
+  top: 39.63rem;
+  left: 9.38rem;
+}
+.createAccount1 {
+  position: absolute;
+  top: 46.63rem;
+  left: 23.63rem;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  color: var(--color-white);
+}
+.google2Icon {
+  position: absolute;
+  top: 13.88rem;
+  left: 10.25rem;
+  width: 1.48rem;
+  height: 1.63rem;
+  overflow: hidden;
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 40.44rem;
+  width: 56.69rem;
+  height: 61.38rem;
+}
+.signUpPageInvestor {
+  position: relative;
+  background: linear-gradient(
+    269.76deg,
+    #2d2c2c,
+    #832f43 45.06%,
+    #c83256 75.82%
+  );
+  width: 100%;
+  height: 61.38rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-2xs);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}

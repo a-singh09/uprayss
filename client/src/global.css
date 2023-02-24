@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-2xs: 1rem;
+  --font-size-xs: 1.25rem;
+  --font-size-sm: 1.56rem;
+  --font-size-base: 1.69rem;
+  --font-size-lg: 1.88rem;
+  --font-size-xl: 2.19rem;
+  --font-size-2xl: 2.5rem;
+  --font-size-3xl: 2.94rem;
+  --font-size-4xl: 3rem;
+  --font-size-5xl: 3.75rem;
+  --font-size-6xl: 4.69rem;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-brown: #92223d;
+  --color-indianred-100: #c83256;
+  --color-indianred-200: #a9314e;
+  --color-gainsboro-100: #d9d9d9;
+  --color-gainsboro-200: #d9d8d8;
+  --color-black: #000;
+  --color-gray-100: #fffefe;
+  --color-gray-200: #928f8f;
+  --color-gray-300: #2d2c2c;
+  --color-gray-400: #111010;
+  --color-gray-500: rgba(0, 0, 0, 0.5);
+  --color-whitesmoke: #f5f5f5;
+  --color-silver: #cbc5c5;
+  --color-crimson-100: #ff3465;
+  --color-crimson-200: #f33362;
+  --color-crimson-300: rgba(252, 52, 100, 0.75);
+  --color-darkgray: #9c9898;
+
+  /* Paddings */
+  --padding-md: 0.34rem;
+
+  /* border radiuses */
+  --br-3xs: 2.73px;
+  --br-2xs: 10px;
+  --br-xs: 13px;
+  --br-sm: 15px;
+  --br-md: 27px;
+  --br-lg: 28px;
+  --br-xl: 30px;
+  --br-2xl: 35px;
+  --br-3xl: 40px;
+}

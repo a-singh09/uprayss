@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "./ReviewsComponent.module.css";
 
 const ReviewsComponent = () => {

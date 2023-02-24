@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "./VideoDescriptionMenu.module.css";
 
 const VideoDescriptionMenu = () => {

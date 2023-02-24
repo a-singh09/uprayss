@@ -1,3 +1,4 @@
+import React from "react";
 import { useCallback } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import styles from "./SignUpPageInvestor.module.css";

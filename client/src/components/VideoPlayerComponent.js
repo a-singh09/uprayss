@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "./VideoPlayerComponent.module.css";
 
 const VideoPlayerComponent = () => {

@@ -177,12 +177,26 @@
   overflow: hidden;
 }
 .rectangleParent {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 40.44rem;
   width: 56.69rem;
   height: 61.38rem;
+  animation-name: slide-in;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
 }
+
+@keyframes slide-in {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
 .signUpPageFounder {
   position: relative;
   background: linear-gradient(

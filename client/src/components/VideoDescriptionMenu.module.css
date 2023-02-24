@@ -1,0 +1,80 @@
+.description,
+.startupsName {
+  position: relative;
+  font-weight: 600;
+}
+.description {
+  display: inline-block;
+  width: 36.68rem;
+  flex-shrink: 0;
+}
+.arrowDownCircleIcon {
+  position: relative;
+  width: 2.87rem;
+  height: 2.87rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.descriptionParent {
+  width: 40.75rem;
+  height: 4.69rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-sm) var(--padding-xs) 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.instanceChild {
+  position: relative;
+  width: 50.23rem;
+  height: 0;
+  flex-shrink: 0;
+  display: none;
+}
+.frameParent,
+.instanceParent,
+.startupsNameParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent {
+  border-radius: var(--br-lg);
+  background-color: var(--white);
+  width: 47.19rem;
+  height: 4.69rem;
+  flex-shrink: 0;
+  padding: 0 0 0 var(--padding-lg);
+  box-sizing: border-box;
+  align-items: center;
+  gap: var(--gap-md);
+}
+.instanceParent,
+.startupsNameParent {
+  align-items: flex-start;
+  gap: var(--gap-sm);
+  text-align: left;
+  font-size: var(--font-size-4xl);
+  color: var(--color-darkslategray-100);
+}
+.startupsNameParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-2xs);
+  background: linear-gradient(1.32deg, #7e2f42, #433f3f 97.9%);
+  box-shadow: 4px 4px 65px -19px rgba(140, 136, 136, 0.25);
+  border: 1px solid var(--color-indianred-200);
+  box-sizing: border-box;
+  width: 94.5rem;
+  height: 42.19rem;
+  padding: var(--padding-md) var(--padding-xl);
+  align-items: center;
+  gap: var(--gap-lg);
+  text-align: center;
+  font-size: var(--font-size-14xl);
+  color: var(--white);
+  font-family: var(--font-inter);
+}

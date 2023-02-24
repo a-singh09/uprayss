@@ -1,0 +1,137 @@
+.frameChild {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-indianred-300);
+  position: absolute;
+  top: 0;
+  left: 2.11rem;
+  border-radius: var(--br-lg);
+  width: 66.7rem;
+  height: 5.72rem;
+}
+.connectWithThe {
+  position: absolute;
+  top: 1.5rem;
+  left: 21.8rem;
+  font-weight: 600;
+}
+.rectangleParent {
+  position: absolute;
+  top: 58.27rem;
+  left: 11.81rem;
+  width: 70.88rem;
+  height: 5.72rem;
+}
+.reviews {
+  position: absolute;
+  top: 1.5rem;
+  left: 31.03rem;
+  font-weight: 600;
+}
+.frameInner,
+.rectangleGroup {
+  position: absolute;
+  width: 70.88rem;
+  height: 5.72rem;
+}
+.rectangleGroup {
+  top: 50.53rem;
+  left: 11.81rem;
+  cursor: pointer;
+}
+.frameInner {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg);
+}
+.nextPitch {
+  position: absolute;
+  top: 1.5rem;
+  left: 29.91rem;
+  font-size: var(--font-size-8xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-dimgray);
+  text-align: left;
+}
+.rectangleContainer {
+  cursor: pointer;
+  border: 2.3px solid var(--color-black);
+  padding: 0;
+  background-color: #e5dede;
+  position: absolute;
+  top: 66rem;
+  left: 13.92rem;
+  border-radius: var(--br-lg);
+  box-sizing: border-box;
+  width: 66.7rem;
+  height: 5.72rem;
+}
+.frameParent {
+  position: absolute;
+  top: 65.25rem;
+  left: 0;
+  background-color: var(--white);
+  width: 94.5rem;
+  height: 79.25rem;
+}
+.contactUs,
+.faq,
+.home,
+.uprayss {
+  position: absolute;
+  display: flex;
+  font-family: var(--font-inter);
+  color: var(--color-whitesmoke);
+  text-align: left;
+  align-items: center;
+}
+.uprayss {
+  top: 1rem;
+  left: 3.63rem;
+  font-size: var(--font-size-6xl);
+  letter-spacing: 0.08em;
+  font-weight: 800;
+  width: 10.69rem;
+  height: 4.63rem;
+}
+.contactUs,
+.faq,
+.home {
+  top: 1.13rem;
+  left: 87.38rem;
+  font-size: var(--font-size-3xl);
+  letter-spacing: 0.11em;
+  line-height: 132.02%;
+  width: 3.75rem;
+  height: 4.31rem;
+}
+.contactUs,
+.home {
+  left: 57.88rem;
+  width: 5.5rem;
+}
+.contactUs {
+  left: 70.06rem;
+  width: 10.56rem;
+}
+.navBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, #c83256, rgba(199, 50, 86, 0.1));
+  width: 94.5rem;
+  height: 6.56rem;
+}
+.videoplayer {
+  position: relative;
+  background-color: var(--color-gray-400);
+  width: 100%;
+  height: 144.5rem;
+  overflow-y: auto;
+  text-align: left;
+  font-size: var(--font-size-8xl);
+  color: var(--white);
+  font-family: var(--font-inter);
+}

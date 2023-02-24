@@ -1,0 +1,254 @@
+.investorForm2Child {
+  position: absolute;
+  top: 12.5rem;
+  left: 8.06rem;
+  border-radius: var(--br-3xl);
+  background: linear-gradient(
+    119.12deg,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 250, 250, 0.1)
+  );
+  width: 78.75rem;
+  height: 49.94rem;
+}
+.aboutYou {
+  position: absolute;
+  top: 16.94rem;
+  left: 15.63rem;
+  font-size: var(--font-size-9xl);
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-gray-200);
+  width: 13.25rem;
+  height: 2.81rem;
+}
+.instanceChild {
+  border: 1px solid var(--color-gray-700);
+  background-color: var(--color-gainsboro-100);
+  position: absolute;
+  top: 1.5rem;
+  left: 0;
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  width: 13rem;
+  height: 1.84rem;
+}
+.areYouInvesting {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.rectangleParent {
+  position: absolute;
+  top: 23.63rem;
+  left: 19rem;
+  width: 27.31rem;
+  height: 6.31rem;
+}
+.frameChild,
+.frameDiv,
+.rectangleContainer,
+.rectangleGroup {
+  position: absolute;
+  top: 23.63rem;
+  left: 51.75rem;
+  width: 27.06rem;
+  height: 6.31rem;
+}
+.frameChild,
+.frameDiv,
+.rectangleContainer {
+  top: 32.63rem;
+  left: 19rem;
+}
+.frameChild,
+.frameDiv {
+  left: 51.75rem;
+}
+.frameChild {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-indianred-300);
+  top: 1.17rem;
+  left: 27.42rem;
+  border-radius: 14px;
+  width: 34.84rem;
+  height: 2.34rem;
+}
+.submit {
+  position: absolute;
+  top: 1.83rem;
+  left: 43.39rem;
+  font-weight: 600;
+}
+.rectangleParent1 {
+  position: absolute;
+  top: 52.19rem;
+  left: 2.13rem;
+  width: 74.31rem;
+  height: 4.44rem;
+  font-size: 0.84rem;
+  color: var(--white);
+  font-family: var(--font-inter);
+}
+.rectangleParent2,
+.rectangleParent3 {
+  position: absolute;
+  top: 41.63rem;
+  left: 19rem;
+  width: 14.16rem;
+  height: 3.34rem;
+}
+.rectangleParent3 {
+  top: 41.25rem;
+  left: 51.75rem;
+}
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--white);
+  width: 45.89rem;
+  height: 21.84rem;
+}
+.edTech {
+  text-decoration: none;
+  position: absolute;
+  top: 0.7rem;
+  left: 2.58rem;
+  font-weight: 500;
+  color: inherit;
+}
+.edTechGroup,
+.edTechParent,
+.rectangleDiv {
+  position: absolute;
+  width: 10.97rem;
+  height: 3.19rem;
+}
+.rectangleDiv {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  border: 1.5px solid var(--color-black);
+  box-sizing: border-box;
+}
+.edTechGroup,
+.edTechParent {
+  top: 7.73rem;
+  left: 6.38rem;
+}
+.edTechGroup {
+  left: 19.08rem;
+}
+.edTechContainer,
+.edTechParent1,
+.edTechParent2,
+.edTechParent3 {
+  position: absolute;
+  top: 7.73rem;
+  left: 31.78rem;
+  width: 10.97rem;
+  height: 3.19rem;
+}
+.edTechParent1,
+.edTechParent2,
+.edTechParent3 {
+  top: 12.8rem;
+  left: 6.38rem;
+}
+.edTechParent2,
+.edTechParent3 {
+  left: 19.08rem;
+}
+.edTechParent3 {
+  left: 31.78rem;
+}
+.rectangleParent4 {
+  position: absolute;
+  top: 26.45rem;
+  left: 24.4rem;
+  background-color: #c3c1c1;
+  width: 45.89rem;
+  height: 21.84rem;
+}
+.chooseYourInvestment {
+  position: absolute;
+  top: 29.17rem;
+  left: 27.59rem;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+}
+.macbookPro1431 {
+  position: absolute;
+  top: 0;
+  left: 0.19rem;
+  background-color: rgba(45, 44, 44, 0.5);
+  width: 94.5rem;
+  height: 72.06rem;
+  overflow: hidden;
+  cursor: pointer;
+  font-size: var(--font-size-2xl);
+  color: var(--color-gray-500);
+  font-family: var(--font-inter);
+}
+.contactUs,
+.faq,
+.home,
+.uprayss {
+  position: absolute;
+  top: 1rem;
+  left: 3.63rem;
+  font-size: var(--font-size-6xl);
+  letter-spacing: 0.08em;
+  font-weight: 800;
+  font-family: var(--font-inter);
+  color: var(--color-whitesmoke);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 10.69rem;
+  height: 4.63rem;
+}
+.contactUs,
+.faq,
+.home {
+  text-decoration: none;
+  top: 1.13rem;
+  left: 87.38rem;
+  font-size: var(--font-size-3xl);
+  letter-spacing: 0.11em;
+  line-height: 132.02%;
+  font-weight: 700;
+  width: 3.75rem;
+  height: 4.31rem;
+}
+.contactUs,
+.home {
+  left: 57.88rem;
+  width: 5.5rem;
+}
+.contactUs {
+  left: 70.06rem;
+  width: 10.56rem;
+}
+.navBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, #c83256, rgba(199, 50, 86, 0.1));
+  width: 94.5rem;
+  height: 6.56rem;
+}
+.investorForm2 {
+  position: relative;
+  background-color: var(--color-gray-400);
+  width: 100%;
+  height: 72.06rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--heading-m-size);
+  color: var(--color-whitesmoke);
+  font-family: var(--font-helvetica);
+}

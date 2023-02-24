@@ -1,3 +1,4 @@
+import React from 'react'
 import { useMemo } from "react";
 import styles from "./VideoStack.module.css";
 

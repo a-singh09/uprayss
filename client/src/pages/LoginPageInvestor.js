@@ -1,14 +1,37 @@
-import React from "react";
-import { useCallback } from "react";
+import React, {useState} from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./LoginPageInvestor.module.css";
 
 const LoginPageInvestor = () => {
   const navigate = useNavigate();
+    
+    const [email, setEmail] = useState('')
+    const [password, setPassword] = useState('')
 
-  const onRectangleButtonClick = useCallback(() => {
-    navigate("/videolist");
-  }, [navigate]);
+    const loginUser = async (e) => {
+        e.preventDefault()
+
+        const res = await fetch('/login', {
+            method: 'POST',
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                email, password
+            })
+        })
+
+        const data = await res.json();
+
+        if (data.status === 422 || !data) {
+            window.alert("Invalid Credentials"); 
+            console.log("Invalid Credentials");
+        } else {
+            window.alert("Login Successful"); 
+            console.log("Login Successful");
+            navigate("/videolist");
+        }
+    }
 
   return (
     <div className={styles.loginPageInvestor}>
@@ -22,17 +45,21 @@ const LoginPageInvestor = () => {
           type="email"
           placeholder="Email Address"
           name="email"
+          value={email}
+          onChange={(e) => {setEmail(e.target.value)}}
         />
         <input
           className={styles.password}
           type="password"
           placeholder="Password"
           name="password"
+          value={password}
+          onChange={(e) => {setPassword(e.target.value)}}
         />
         <b className={styles.logIn}>Log in</b>
         <button
           className={styles.frameInner}
-          onClick={onRectangleButtonClick}
+          onClick={loginUser}
           name="submit"
         />
         <img className={styles.lineIcon} alt="" src="../line-10.svg" />

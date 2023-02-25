@@ -24,11 +24,11 @@ function App() {
 
       <Route path="/signup-page-founder" element={<SignUpPageFounder />} />
 
+      <Route path="/signup-page-investor" element={<SignUpPageInvestor />} />
+
       <Route path="/login-page-investor" element={<LoginPageInvestor />} />
 
       <Route path="/login-page-founder" element={<LoginPageFounder />} />
-
-      <Route path="/signup-page-investor" element={<SignUpPageInvestor />} />
 
       <Route path="/founderform" element={<FounderForm />} />
 
@@ -36,7 +36,7 @@ function App() {
 
       <Route path="/videolist" element={<VideoList />} />
 
-      <Route path="/" element={<InvestorForm2 />} />
+      <Route path="/investorform2" element={<InvestorForm2 />} />
 
       <Route path="/video-uploading-page" element={<VideoUploadingPage />} />
 

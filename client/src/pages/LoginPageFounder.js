@@ -1,14 +1,39 @@
-import React from "react";
-import { useCallback } from "react";
+import React, {useState} from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./LoginPageFounder.module.css";
 
 const LoginPageFounder = () => {
   const navigate = useNavigate();
+    
+    const [username, setUsername] = useState('')
+    const [password, setPassword] = useState('')
 
-  const onRectangleButtonClick = useCallback(() => {
-    navigate("/videolist");
-  }, [navigate]);
+    const loginUser = async (e) => {
+        e.preventDefault()
+
+        const res = await fetch('/login', {
+            method: 'POST',
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                username, password
+            })
+        })
+
+        const data = await res.json();
+
+        if (data.status === 422 || !data) {
+            window.alert("Invalid Credentials"); 
+            console.log("Invalid Credentials");
+        } else {
+            window.alert("Login Successful"); 
+            console.log("Login Successful");
+            navigate("/founderform");
+        }
+    }
+
+ 
 
   return (
     <div className={styles.loginPageFounder}>
@@ -21,18 +46,22 @@ const LoginPageFounder = () => {
           className={styles.emailAddress}
           type="email"
           placeholder="Email Address"
-          name="email"
+          name="username"
+          value={username}
+          onChange={(e) => {setUsername(e.target.value)}}
         />
         <input
           className={styles.password}
           type="password"
           placeholder="Password"
           name="password"
+          value={password}
+          onChange={(e) => {setPassword(e.target.value)}}
         />
         <b className={styles.logIn}>Log in</b>
         <button
           className={styles.frameInner}
-          onClick={onRectangleButtonClick}
+          onClick={loginUser}
           name="submit"
         />
         <img className={styles.lineIcon} alt="" src="../line-10.svg" />

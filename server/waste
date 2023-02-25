@@ -1,0 +1,110 @@
+
+ // let client = new Vimeo("8339d1c891a5fb92ab1d10889e07515fc379dea9", "sHK+xl9Q1m6ua8HeKeUiXO0DRDsXsQ1Je/f5GYCg6VnaOkogbZglEHAI0S1TaoadDck0wQ3ylh54IGz3GKj7Rh4f+Ks4jXQ4L14XOg2Yy3vQmylJizEUhnQWmK0r6SVC", "e4a4fd50015c00f5f51bfb86f8b0a02e");
+
+
+// app.post("/" , function(req,res){
+//   console.log(req.body.upload);
+//   let file_name = req.body.video;
+//   client.upload(
+//     file_name,
+//     {
+//       'name': 'treasure hunt',
+//       'description': 'This is the test video for api testing whether it works or not.'
+//     },
+//     function (uri) {
+//       console.log('Your video URI is: ' + uri);
+//     },
+//     function (bytes_uploaded, bytes_total) {
+//       var percentage = (bytes_uploaded / bytes_total * 100).toFixed(2)
+//       console.log(bytes_uploaded, bytes_total, percentage + '%')
+//     },
+//     function (error) {
+//       console.log('Failed because: ' + error)
+//     }
+//   )
+//
+//  // this is for checking progress
+//
+//   client.request(uri + '?fields=transcode.status', function (error, body, status_code, headers) {
+//    if (body.transcode.status === 'complete') {
+//      console.log('Your video finished transcoding.')
+//    } else if (body.transcode.status === 'in_progress') {
+//      console.log('Your video is still transcoding.')
+//    } else {
+//      console.log('Your video encountered an error during transcoding.')
+//    }
+//  })
+//
+//  // this is request video url
+//
+//  client.request(uri + '?fields=link', function (error, body, statusCode, headers) {
+//    if (error) {
+//      console.log('There was an error making the request.')
+//      console.log('Server reported: ' + error)
+//      return
+//    }
+//
+//    console.log('Your video link is: ' + body.link)
+//  })
+//
+// })
+//
+//
+//
+<form action="/register" method="POST">
+
+    <label for="email">Email</label>
+    <input type="email" class="form-control" name="username">
+
+
+    <label for="password">Password</label>
+    <input type="password" class="form-control" name="password">
+
+  <button type="submit" class="">Register</button>
+</form>
+
+<div class="col-sm-4">
+  <div class="card social-block">
+    <div class="card-body">
+      <a class="btn btn-block btn-social btn-google" href="/auth/google" role="button">
+        <i class="fab fa-google"></i>
+        Sign Up with Google
+      </a>
+    </div>
+    <div class="card-body">
+      <a class="btn btn-block btn-social btn-facebook" href="/auth/facebook" role="button">
+        <i class="fab fa-facebook"></i>
+        Sign Up with Facebook
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
+LinkedInStrategy
+
+// app.get("/register",function(req,res){
+//   if(req.user){
+//     const name=req.user.name.givenName;
+//     const family=req.user.name.givenName;
+//     const photo = req.user.photos[0].value;
+//   const email = req.user.emails[0].value;
+//   res.send(
+//     `<center style="font-size:140%"> <p>User is Logged In </p>
+//    <p>Name: ${name} ${family} </p>
+//    <p> Linkedn Email: ${email} </p>
+//    <img src="${photo}"/>
+//    </center>
+//    `
+//   )
+//   }
+//   else {
+//     res.send(`<center style="font-size:160%"> <p>This is Home Page </p>
+//     <p>User is not Logged In</p>
+//     <img style="cursor:pointer;"  onclick="window.location='/auth/linkedIn'" src="http://www.bkpandey.com/wp-content/uploads/2017/09/linkedinlogin.png"/>
+//     </center>
+//     `);
+//   }
+//
+// })

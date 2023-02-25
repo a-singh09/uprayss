@@ -1,14 +1,52 @@
-import React from "react";
-import { useCallback } from "react";
+import React, {useState} from "react";
 import { Link, useNavigate } from "react-router-dom";
 import styles from "./SignUpPageInvestor.module.css";
 
 const SignUpPageInvestor = () => {
   const navigate = useNavigate();
 
-  const onRectangleButtonClick = useCallback(() => {
-    navigate("/investorform");
-  }, [navigate]);
+    const [user, setUser] = useState({
+        name: "", username: "", phone: "", password: ""
+    });
+
+    let name, value;
+
+    const handleInputs = (e) => {
+        console.log(e);
+        name = e.target.name;
+        value = e.target.value;
+
+        setUser({ ...user, [name]: value })
+    }
+
+    const PostData = async (e) => {
+        e.preventDefault();
+
+        const { name, username, phone, password  } = user;
+
+        const res = await fetch('/register', {
+            method: 'POST',
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                name, username, phone, password
+            })
+        });
+
+        const data = await res.json();
+
+        if (data.status === 422 || !data) {
+            window.alert("Invalid Registration"); 
+            console.log("Invalid Registration");
+        } else {
+            window.alert(" Registration Successful"); 
+            console.log("Successful Registration");
+            navigate("/investorform");
+        }
+    }
+
+  
 
   return (
     <div className={styles.signUpPageInvestor}>
@@ -24,24 +62,32 @@ const SignUpPageInvestor = () => {
           type="text"
           placeholder="Full Name"
           name="name"
+          value={user.name}
+          onChange={handleInputs}
         />
         <input
           className={styles.emailAddress}
           type="email"
           placeholder="Email Address"
           name="email"
+          value={user.email}
+          onChange={handleInputs}
         />
         <input
           className={styles.phoneNo}
           type="number"
           placeholder="Phone no."
           name="phone"
+          value={user.phone}
+          onChange={handleInputs}
         />
         <input
           className={styles.password}
           type="password"
           placeholder="Password"
           name="password"
+          value={user.password}
+          onChange={handleInputs}
         />
         <div className={styles.alreadyHaveAn}>Already have an account?</div>
         <Link className={styles.logIn} to="/login-page-investor">
@@ -52,7 +98,7 @@ const SignUpPageInvestor = () => {
         <div className={styles.frameInner} />
         <button
           className={styles.rectangleButton}
-          onClick={onRectangleButtonClick}
+          onClick={PostData}
           name="submit"
         />
         <img className={styles.lineIcon} alt="" src="../line-10.svg" />

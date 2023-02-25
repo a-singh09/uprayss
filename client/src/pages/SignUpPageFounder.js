@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { useCallback } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import styles from "./SignUpPageFounder.module.css";
@@ -6,13 +6,51 @@ import styles from "./SignUpPageFounder.module.css";
 const SignUpPageFounder = () => {
   const navigate = useNavigate();
 
+    const [user, setUser] = useState({
+        username: "", name: "", phone: "", password: ""
+    });
+
+    let name, value;
+
+    const handleInputs = (e) => {
+        console.log(e);
+        name = e.target.name;
+        value = e.target.value;
+
+        setUser({ ...user, [name]: value })
+    }
+
+    const PostData = async (e) => {
+        e.preventDefault();
+
+        const { username, name, phone, password  } = user;
+
+        const res = await fetch('/register', {
+            method: 'POST',
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                username, name, phone, password
+            })
+        });
+
+        const data = await res.json();
+
+        if (data.status === 422 || !data) {
+            window.alert("Invalid Registration"); 
+            console.log("Invalid Registration");
+        } else {
+            window.alert(" Registration Successful"); 
+            console.log("Successful Registration");
+            navigate("/founderform");
+        }
+    }
+
   const onLogInClick = useCallback(() => {
     navigate("/login-page-founder");
   }, [navigate]);
 
-  const onRectangleButtonClick = useCallback(() => {
-    navigate("/founderform");
-  }, [navigate]);
 
   return (
     <div className={styles.signUpPageFounder}>
@@ -22,30 +60,42 @@ const SignUpPageFounder = () => {
         <div className={styles.frameChild} />
         <img className={styles.frameItem} alt="" src="../group-26.svg" />
         <div className={styles.or}>-OR-</div>
-        <div className={styles.signUpWith}>Sign up with google</div>
+        {/* <button className={styles.signUpWith} >Sign up with google</button> */}
+        <a className="btn btn-block btn-social btn-google" href="/auth/google" role="button">
+        <i className="fab fa-google"></i>
+        Sign Up with Google
+      </a>
+        <input
+          className={styles.emailAddress}
+          type="email"
+          placeholder="Email Address"
+          name="username"
+          value={user.username}
+          onChange={handleInputs}
+        />
         <input
           className={styles.fullName}
           type="text"
           placeholder="Full Name"
           name="name"
-        />
-        <input
-          className={styles.emailAddress}
-          type="email"
-          placeholder="Email Address"
-          name="email"
+          value={user.name}
+          onChange={handleInputs}
         />
         <input
           className={styles.phoneNo}
           type="number"
           placeholder="Phone no."
           name="phone"
+          value={user.phone}
+          onChange={handleInputs}
         />
         <input
           className={styles.password}
           type="password"
           placeholder="Password"
           name="password"
+          value={user.password}
+          onChange={handleInputs}
         />
         <div className={styles.alreadyHaveAn}>Already have an account?</div>
         <Link
@@ -60,7 +110,7 @@ const SignUpPageFounder = () => {
         <div className={styles.frameInner} />
         <button
           className={styles.rectangleButton}
-          onClick={onRectangleButtonClick}
+          onClick={PostData}
           name="submit"
         />
         <img className={styles.lineIcon} alt="" src="../line-10.svg" />

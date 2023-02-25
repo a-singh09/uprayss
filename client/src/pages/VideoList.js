@@ -9,23 +9,23 @@ const VideoList = () => {
   const navigate = useNavigate();
 
   const onVideoClick = useCallback(() => {
-    navigate("/videoreview");
+    navigate("/videoplayer");
   }, [navigate]);
 
   const onVideo1Click = useCallback(() => {
-    navigate("/videoreview");
+    navigate("/videoplayer");
   }, [navigate]);
 
   const onVideo2Click = useCallback(() => {
-    navigate("/videoreview");
+    navigate("/videoplayer");
   }, [navigate]);
 
   const onVideo3Click = useCallback(() => {
-    navigate("/videoreview");
+    navigate("/videoplayer");
   }, [navigate]);
 
   const onVideo4Click = useCallback(() => {
-    navigate("/videoreview");
+    navigate("/videoplayer");
   }, [navigate]);
 
   return (

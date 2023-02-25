@@ -1,5 +1,4 @@
-import React from "react";
-import { useCallback } from "react";
+import React, {useState} from "react";
 import { useNavigate } from "react-router-dom";
 import NavBar from "../components/NavBar";
 import styles from "./FounderForm.module.css";
@@ -8,7 +7,7 @@ const FounderForm = () => {
   const navigate = useNavigate();
 
     const [finfo, setFinfo] = useState({
-      experience:"" , country:"" , tier:"" , income:"" , panno:"" 
+      startupname: "" , problem: "" , ask: "" , about: "" , additionalinfo: "" , panno: ""  
     });
 
     let name, value;
@@ -18,13 +17,13 @@ const FounderForm = () => {
         name = e.target.name;
         value = e.target.value;
 
-        setUser({ ...user, [name]: value })
+        setFinfo({ ...finfo, [name]: value })
     }
 
     const PostData = async (e) => {
         e.preventDefault();
 
-        const { experience, country, tier, income, panno } = finfo;
+        const { startupname, problem, ask, about, additionalinfo, panno } = finfo;
 
         const res = await fetch('/finfo', {
             method: 'POST',
@@ -32,7 +31,7 @@ const FounderForm = () => {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify({
-              experience, country, tier, income, panno
+              startupname, problem, ask, about, additionalinfo, panno
             })
         });
 
@@ -53,7 +52,7 @@ const FounderForm = () => {
       <div className={styles.founderFormChild} />
       <b className={styles.letUsHelp}>Let us help you</b>
       <div className={styles.rectangleParent}>
-        <input className={styles.instanceChild} type="text" name="startupname" value={finfo.experience}
+        <input className={styles.instanceChild} type="text" name="startupname" value={finfo.startupname}
           onChange={handleInputs}/>
         <div className={styles.areYouInvesting}>Name of your startup</div>
       </div>

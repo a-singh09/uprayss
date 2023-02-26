@@ -121,6 +121,10 @@ const SignUpPageFounder = () => {
           onClick={PostData}
           name="submit"
         />
+        <label className={styles.checkboxLabel}>
+        <input type="checkbox" className={styles.checkboxInput}/>
+        terms and conditions apply
+        </label>
         <img className={styles.lineIcon} alt="" src="../line-10.svg" />
         <img className={styles.frameChild1} alt="" src="../line-10.svg" />
         <img className={styles.frameChild2} alt="" src="../line-10.svg" />

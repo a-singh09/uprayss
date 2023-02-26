@@ -10,25 +10,6 @@ import { BACKEND_URI } from "../config/constants";
 const VideoUploadingPage = () => {
   const navigate = useNavigate();
 
-  const [medias, setMedias] = useState([]);
-
-  useEffect(() => {
-    getAllMedias();
-  }, []);
-
-  const getAllMedias = () => {
-    axios
-      .get(`${BACKEND_URI}/api/v1/media/all`)
-      .then((result) => {
-        setMedias(result.data);
-      })
-      .catch((error) => {
-        setMedias([]);
-        console.log(error);
-        alert(error);
-      });
-  };
-
   const [name, setName] = useState("");
   const [videos, setVideos] = useState([]);
 

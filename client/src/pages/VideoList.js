@@ -1,11 +1,33 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import VideoStack from "../components/VideoStack";
 import NavBar from "../components/NavBar";
 import styles from "./VideoList.module.css";
+import axios from "axios";
+import { BACKEND_URI } from "../config/constants";
 
 const VideoList = () => {
+
+  // const [medias, setMedias] = useState([]);
+
+  // useEffect(() => {
+  //   getAllMedias();
+  // }, []);
+
+  // const getAllMedias = () => {
+  //   axios
+  //     .get(`${BACKEND_URI}/api/v1/media/all`)
+  //     .then((result) => {
+  //       setMedias(result.data);
+  //     })
+  //     .catch((error) => {
+  //       setMedias([]);
+  //       console.log(error);
+  //       alert(error);
+  //     });
+  // };
+
   const navigate = useNavigate();
 
   const onVideoClick = useCallback(() => {
@@ -28,12 +50,16 @@ const VideoList = () => {
     navigate("/videoplayer");
   }, [navigate]);
 
+  
   return (
+    <>
+    <NavBar />
+    
     <div className={styles.videoList}>
       <div className={styles.hereAreThe}>
         Here are the recent pitches for you
       </div>
-      <b className={styles.welcomePriyanshu}>Welcome Priyanshu,</b>
+      <b className={styles.welcomePriyanshu}>Welcome,</b>
       <VideoStack
         onVideoClick={onVideoClick}
         rectangle21="../rectangle-21@2x.png"
@@ -58,8 +84,9 @@ const VideoList = () => {
         videoTop="167.19rem"
         rectangle21="../rectangle-214@2x.png"
       />
-      <NavBar />
+      
     </div>
+    </>
   );
 };
 

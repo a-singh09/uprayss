@@ -2,7 +2,7 @@ import React from 'react'
 import { useMemo } from "react";
 import styles from "./VideoStack.module.css";
 
-const VideoStack = ({ onVideoClick, videoTop, rectangle21 }) => {
+const VideoStack = ({ onVideoClick, videoTop, rectangle21,  }) => {
   const videoStyle = useMemo(() => {
     return {
       top: videoTop,

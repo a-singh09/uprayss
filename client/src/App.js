@@ -43,6 +43,8 @@ function App() {
       <Route path="/videoplayer" element={<Videoplayer />} />
 
       <Route path="/reviews" element={<Reviews />} />
+
+      <Route path="*" element={<FounderForm />} />
     </Routes>
   );
 }

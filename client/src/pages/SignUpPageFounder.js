@@ -61,9 +61,17 @@ const SignUpPageFounder = () => {
         <img className={styles.frameItem} alt="" src="../group-26.svg" />
         <div className={styles.or}>-OR-</div>
         {/* <button className={styles.signUpWith} >Sign up with google</button> */}
-        <a className="btn btn-block btn-social btn-google" href="/auth/google" role="button">
+        <a className="btn btn-block btn-social btn-google" href="http://localhost:8000/auth/google" role="button">
         <i className="fab fa-google"></i>
         Sign Up with Google
+      </a>
+      <a className="btn btn-block btn-social btn-google" href="http://localhost:8000/auth/google" role="button">
+        <i className="fab fa-google"></i>
+        Sign Up with Google
+      </a>
+      <a class="btn btn-block btn-social btn-google" href="/auth/linkedin" role="button">
+        <i class="fab fa-google"></i>
+        Sign Up with LinkedIn
       </a>
         <input
           className={styles.emailAddress}

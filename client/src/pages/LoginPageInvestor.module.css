@@ -19,6 +19,14 @@
   width: 1.48rem;
   height: 1.63rem;
 }
+.google2Icon {
+  position: absolute;
+  top: 13.88rem;
+  left: 10.25rem;
+  width: 1.48rem;
+  height: 1.63rem;
+  overflow: hidden;
+}
 .frameChild {
   position: absolute;
   top: 0;
@@ -27,6 +35,20 @@
   background-color: var(--color-white);
   width: 56.69rem;
   height: 61.38rem;
+}
+.or {
+  position: absolute;
+}
+.logInwithGoogle{
+  cursor: pointer;
+  border: 2px solid var(--color-brown);
+  padding: 0;
+  background-color: var(--color-indianred-200);
+  top: 24.31rem;
+  border-radius: var(--br-xs);
+  box-sizing: border-box;
+  height: 3.69rem;
+
 }
 .frameItem {
   position: absolute;

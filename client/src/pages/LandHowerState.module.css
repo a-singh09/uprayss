@@ -5,6 +5,7 @@
   width: 64.63rem;
   height: 54.13rem;
 }
+
 .macbookPro1426Inner,
 .macbookPro1426Item {
   cursor: pointer;
@@ -18,10 +19,17 @@
   width: 11.75rem;
   height: 3.44rem;
 }
+.macbookPro1426Item:hover, .macbookPro1426Inner:hover {
+  
+  box-shadow: 0 3px 10px rgb(218,212,212,27%);
+ 
+}
+
 .macbookPro1426Inner {
   left: 23.31rem;
-  width: 12.81rem;
-  height: 3.75rem;
+  width: 11.75rem;
+  height: 3.44rem;
+  padding-bottom: 3px;
 }
 .founder,
 .investor,
@@ -33,7 +41,7 @@
 .investor,
 .joinUsAs {
   left: 26rem;
-  font-size: var(--font-size-base);
+
 }
 .joinUsAs {
   top: 40.88rem;
@@ -149,7 +157,7 @@
 .uprayss2 {
   position: absolute;
   display: inline-block;
-  font-family: var(--font-inter);
+  font-family:sans-serif;
   color: var(--color-whitesmoke);
   text-align: left;
 }
@@ -261,8 +269,14 @@
   left: 14.69rem;
   border-radius: var(--br-3xl);
   background-color: var(--color-indianred-100);
-  width: 65.13rem;
-  height: 32.44rem;
+  width: 60.93rem;
+  height: 32.43rem;
+  transition: top ease 0.5s;
+}
+.rectangleDiv:hover{
+  position: absolute;
+  box-shadow: 0 3px 10px rgb(218,212,212,75%);
+  top: 73rem;
 }
 .noOfInvestment,
 .noOfStartups {
@@ -485,4 +499,6 @@
   font-size: var(--font-size-sm);
   color: var(--color-white);
   font-family: var(--font-inter);
+}
+@media only screen and (min-width: 1024px) {
 }

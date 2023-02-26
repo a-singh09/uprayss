@@ -22,7 +22,7 @@ const Reviews = () => {
           <div className={styles.weeksAgo}>2 weeks ago</div>
           <div className={styles.woahYourProject}>
             Woah, your project looks awesome! How long have you been coding for?
-            I’m still new, but think I want to dive into React as well soon.
+            I'm still new, but think I want to dive into React as well soon.
             Perhaps you can give me an insight on where I can learn React?
             Thanks!
           </div>

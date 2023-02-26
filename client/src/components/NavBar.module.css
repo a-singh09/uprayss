@@ -39,7 +39,7 @@
   width: 10.56rem;
 }
 .navBar {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   background: linear-gradient(180deg, #c83256, rgba(199, 50, 86, 0.1));

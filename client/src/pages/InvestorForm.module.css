@@ -1,3 +1,6 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
 .investorFormChild {
   position: absolute;
   top: 12.5rem;
@@ -5,16 +8,17 @@
   border-radius: var(--br-xl);
   background: linear-gradient(
     119.12deg,
-    rgba(255, 255, 255, 0.4),
-    rgba(255, 250, 250, 0.1)
+    rgba(62, 57, 57, 0.4),
+    rgba(255, 250, 250, 10%)
   );
   width: 78.75rem;
   height: 49.94rem;
+  scale: 0.75;
 }
 .aboutYou {
   position: absolute;
-  top: 16.94rem;
-  left: 15.63rem;
+  top: 11.9399999999999rem;
+  left: 19rem;
   font-size: var(--font-size-2xl);
   display: inline-block;
   color: #fffdfd;
@@ -23,7 +27,7 @@
 }
 .instanceChild {
   border: 2px solid var(--color-gray-500);
-  background-color: var(--color-gainsboro-100);
+  background-color:rgba(120, 116, 116, 0.5);
   position: absolute;
   top: 3rem;
   left: 0;
@@ -31,12 +35,16 @@
   box-sizing: border-box;
   width: 26rem;
   height: 3.69rem;
+  scale:.75;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: #fffdfd;
 }
 .areYouInvesting {
-  position: absolute;
   top: 0;
   left: 0;
   font-weight: 500;
+  scale: .75;
 }
 .rectangleParent {
   position: absolute;
@@ -53,6 +61,7 @@
   left: 51.75rem;
   width: 27.06rem;
   height: 6.31rem;
+  /* sscale: .75; */
 }
 .frameDiv,
 .rectangleContainer {
@@ -73,6 +82,7 @@
   border-radius: var(--br-lg);
   width: 69.69rem;
   height: 4.69rem;
+  scale: .75;
 }
 .submit {
   position: absolute;
@@ -82,7 +92,7 @@
 }
 .rectangleParent1 {
   position: absolute;
-  top: 53.13rem;
+  top: 62.12rem;
   left: 2.13rem;
   width: 74.31rem;
   height: 4.44rem;
@@ -103,7 +113,7 @@
 .investorForm {
   position: relative;
   background-color: var(--color-gray-300);
-  width: 100%;
+ max-width: 100%;
   height: 72.06rem;
   overflow: hidden;
   text-align: left;

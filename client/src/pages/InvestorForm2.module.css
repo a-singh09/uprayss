@@ -24,7 +24,8 @@
 }
 .instanceChild {
   border: 1px solid var(--color-gray-700);
-  background-color: var(--color-gainsboro-100);
+  background-color:rgba(217,217,217,0.5);
+
   position: absolute;
   top: 1.5rem;
   left: 0;
@@ -234,11 +235,11 @@
   width: 10.56rem;
 }
 .navBar {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   background: linear-gradient(180deg, #c83256, rgba(199, 50, 86, 0.1));
-  width: 94.5rem;
+ max-width: 94.5rem;
   height: 6.56rem;
 }
 .investorForm2 {

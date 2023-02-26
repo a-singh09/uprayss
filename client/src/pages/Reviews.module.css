@@ -13,7 +13,7 @@
 }
 .maxblagun {
   position: absolute;
-  top: calc(50% - 53.5px);
+  top: calc(50% - 40px);
   left: 18.63%;
   font-weight: 500;
   color: var(--dark-blue);

@@ -58,6 +58,9 @@
   top: 22.31rem;
   left: 9.38rem;
 }
+.fullName:focus{
+  outline: none;
+}
 .emailAddress,
 .fullName,
 .phoneNo {
@@ -73,9 +76,15 @@
   top: 27.44rem;
   left: 9.38rem;
 }
+.emailAddress:focus{
+  outline: none;
+}
 .phoneNo {
   top: 32.56rem;
   left: 9.5rem;
+}
+.phoneNo:focus{
+  outline: none;
 }
 .alreadyHaveAn,
 .password,
@@ -91,6 +100,9 @@
   left: 9.38rem;
   color: var(--color-gray-200);
   text-align: left;
+}
+.password:focus{
+  outline: none;
 }
 .alreadyHaveAn {
   top: 50.44rem;

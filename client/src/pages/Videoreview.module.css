@@ -1,0 +1,153 @@
+.videoreviewChild {
+  position: absolute;
+  top: 15.63rem;
+  left: 8rem;
+  background-color: var(--color-gainsboro-100);
+  box-shadow: 4px 4px 65px -19px rgba(140, 136, 136, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 78.5rem;
+  height: 37.63rem;
+}
+.description,
+.startupsName {
+  position: absolute;
+  font-weight: 600;
+}
+.description {
+  top: 72.38rem;
+  left: 39.88rem;
+  color: var(--color-gray-300);
+  display: inline-block;
+  width: 65rem;
+}
+.startupsName {
+  top: 58.63rem;
+  left: 9.5rem;
+  font-size: 6.03rem;
+  color: var(--color-whitesmoke);
+}
+.frameChild {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-indianred-200);
+  position: absolute;
+  top: 0;
+  left: 2.81rem;
+  border-radius: var(--br-lg);
+  width: 88.94rem;
+  height: 7.63rem;
+}
+.connectWithThe {
+  position: absolute;
+  top: 2rem;
+  left: 29.06rem;
+  font-weight: 600;
+}
+.rectangleParent {
+  position: absolute;
+  top: 139.06rem;
+  left: 0;
+  width: 94.5rem;
+  height: 7.63rem;
+}
+.videoreviewItem {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-indianred-200);
+  position: absolute;
+  top: 183.94rem;
+  left: 71.81rem;
+  border-radius: var(--br-lg);
+  width: 19.81rem;
+  height: 7.63rem;
+}
+.connectWithThe1,
+.writeAReview {
+  position: absolute;
+  top: 151.44rem;
+  left: 2.94rem;
+  font-weight: 600;
+}
+.connectWithThe1 {
+  top: 2rem;
+  left: 29.06rem;
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg);
+  width: 94.5rem;
+  height: 7.63rem;
+}
+.nextPitch {
+  position: absolute;
+  top: 2rem;
+  left: 39.88rem;
+  font-size: var(--font-size-3xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: #686565;
+  text-align: left;
+}
+.connectWithTheFounderParent {
+  cursor: pointer;
+  border: 3px solid var(--color-black);
+  padding: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  top: 197.88rem;
+  left: 2.69rem;
+  border-radius: var(--br-lg);
+  box-sizing: border-box;
+  width: 88.94rem;
+  height: 7.63rem;
+}
+.done {
+  position: absolute;
+  top: 185.94rem;
+  left: 78rem;
+  font-weight: 600;
+}
+.videoreviewInner {
+  position: absolute;
+  top: 167.13rem;
+  left: 52.88rem;
+  border-radius: var(--br-lg);
+  background-color: #fdfbfb;
+  filter: blur(0);
+  width: 31.75rem;
+  height: 13.25rem;
+}
+.thankYouFor {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.review {
+  margin: 0;
+}
+.thankYouForContainer {
+  position: absolute;
+  top: 168.38rem;
+  left: 59.31rem;
+  font-weight: 600;
+  color: var(--color-black);
+}
+.videoreview {
+  position: relative;
+  background-color: var(--color-gray-300);
+  width: 100%;
+  height: 220.44rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
